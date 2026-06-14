@@ -1,0 +1,44 @@
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# 环境变量和密钥
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.crt
+*.cert
+*.token
+secrets.*
+config.local.*
+credentials.*
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+
+# 日志与运行时数据
+logs/
+state/
+data/
+temp/
+tmp/
+.cache/
+
+# 秘密文件与邮件队列
+.secrets/
+.mail-outbox/
+
+# 生成的预览报表（不上传）
+*.html
